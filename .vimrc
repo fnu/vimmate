@@ -1,6 +1,6 @@
 "设置缩进
-set sw=2
-set ts=2
+set sw=4
+set ts=4
 
 " Source the vimrc file after saving it
 if has("autocmd")
@@ -9,7 +9,7 @@ if has("autocmd")
 endif
 
 " history文件中需要记录的行数
-set history=100
+set history=1000
 " 带有如下符号的单词不要被换行分割
 set iskeyword+=_,$,@,%,#,-
 " 高亮显示普通txt文件（需要txt.vim脚本）
