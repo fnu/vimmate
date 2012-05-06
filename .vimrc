@@ -1,6 +1,8 @@
 "设置缩进
 set sw=4
 set ts=4
+" 用空格代替tab
+set expandtab
 
 " Source the vimrc file after saving it
 if has("autocmd")
