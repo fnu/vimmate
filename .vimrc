@@ -32,7 +32,7 @@ set nocindent
 "默认情况下手动折叠
 set foldmethod=manual
 "显示行号（否：nonumber）
-"set number
+set number
 "不自动换行(否：wrap)
 set nowrap
 "缺省不产生备份文件
