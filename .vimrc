@@ -17,7 +17,7 @@ set iskeyword+=_,$,@,%,#,-
 " 高亮显示普通txt文件（需要txt.vim脚本）
 au BufRead,BufNewFile *  setfiletype txt
 " 高亮显示Nginx的配置文件
-au BufRead,BufNewFile /etc/nginx/*   set ft=nginx
+au BufRead,BufNewFile /etc/nginx/*,/web/nginx/*   set ft=nginx
 "不需要保持和 vi 非常兼容
 "set nocompatible
 "执行 Vim 缺省提供的 .vimrc 文件的示例，包含了打开语法加亮显示等最常用的功能
