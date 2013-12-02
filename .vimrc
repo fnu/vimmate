@@ -31,8 +31,10 @@ set wildmenu
 set nocindent
 "打开自动缩,继承前一行的缩进方式，特别适用于多行注释 进
 " set autoindent
+" 在插入模式下, 按 F9 可以取消自动缩进功能, 方便粘贴
+set pastetoggle=<F9>
 "默认情况下手动折叠
-set foldmethod=manual
+"set foldmethod=manual
 "显示行号（否：nonumber）
 set number
 "不自动换行(否：wrap)
